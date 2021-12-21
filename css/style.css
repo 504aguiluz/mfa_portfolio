@@ -38,8 +38,40 @@ body {
     border-radius: 3px;
     height: 25vh;
     width: 25vw;
-    /* vertical-align: middle; */
+}
+
+.projects{
+}
+
+.projects:hover {
+    background-color: whitesmoke;
     
+}
+
+.about {
+    
+}
+
+.about:hover {
+    background-color: whitesmoke;
+}
+
+.cv {
+    
+}
+
+.cv:hover {
+    background-color: whitesmoke;
+    
+}
+
+.contact{
+    
+}    
+
+.contact:hover {
+    background-color: whitesmoke;
+
 }
 
 h1 {
