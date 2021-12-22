@@ -40,34 +40,61 @@ body {
     width: 25vw;
 }
 
-.projects{
+.projects {
+    position: relative;
+    /* -webkit-transition: opacity .75s ease;
+    -moz-transition: opacity .75s ease;
+    -ms-transition: opacity .75s ease;
+    -o-transition: opacity .75s ease;
+    transition:  opacity .75s ease-out; */
+    
+}
+
+.projects::before {
+    content: "";
+    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0; 
+    -webkit-transition: opacity .75s ease;
+    -moz-transition: opacity .75s ease;
+    -ms-transition: opacity .75s ease;
+    -o-transition: opacity .75s ease;
+    transition:  opacity .75s ease-out;
+}
+
+.projects:hover:before {
+    opacity: 0.75;
 }
 
 .projects:hover {
     background-color: whitesmoke;
-    
 }
 
-.about {
+/* .about {
     
-}
+} */
 
 .about:hover {
     background-color: whitesmoke;
 }
 
-.cv {
+/* .cv {
     
-}
+} */
 
 .cv:hover {
     background-color: whitesmoke;
     
 }
 
-.contact{
+/* .contact{
     
-}    
+}     */
 
 .contact:hover {
     background-color: whitesmoke;
