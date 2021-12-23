@@ -12,19 +12,18 @@ font-family: 'Roboto Mono', monospace; */
 }
 
 body {
-    background-color: violet;
     position: fixed;
-    margin: auto;
     top: 10%;
     max-height: 90vh;
     max-width: 90vw;
     border: 3px solid black;
     border-radius: 5px; 
-    padding: 40px;
 }
 
-.projects-body {
-    /* background-color: violet; */
+.about-body {
+    background-color: violet;
+    height: 534px;
+    width: 624px;
 }
 
 .card-cont {
@@ -33,6 +32,7 @@ body {
     column-gap: 15px;
     row-gap: 15px;
     margin: 20px;
+    padding: 40px;
 }
 
 .card {
@@ -78,7 +78,7 @@ body {
 }
 
 .projects:hover {
-    background-color: whitesmoke;
+    background-color: yellowgreen;
 }
 
 /* .about {
@@ -94,7 +94,7 @@ body {
 } */
 
 .cv:hover {
-    background-color: whitesmoke;
+    background-color: tomato;
     
 }
 
@@ -103,7 +103,7 @@ body {
 }     */
 
 .contact:hover {
-    background-color: whitesmoke;
+    background-color: turquoise;
 
 }
 
