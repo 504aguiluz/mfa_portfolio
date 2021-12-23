@@ -21,7 +21,7 @@ body {
 }
 
 .projects-body {
-    background-color:yellowgreen;
+    background-color: yellowgreen;
     height: 534px;
     width: 624px;
 }
@@ -48,12 +48,6 @@ body {
 
 .projects {
     position: relative;
-    /* -webkit-transition: opacity .75s ease;
-    -moz-transition: opacity .75s ease;
-    -ms-transition: opacity .75s ease;
-    -o-transition: opacity .75s ease;
-    transition:  opacity .75s ease-out; */
-    
 }
 
 .projects::before {
@@ -66,47 +60,106 @@ body {
     bottom: 0px;
     left: 0px;
     opacity: 0; 
-    -webkit-transition: opacity .75s ease;
-    -moz-transition: opacity .75s ease;
-    -ms-transition: opacity .75s ease;
-    -o-transition: opacity .75s ease;
-    transition:  opacity .75s ease-out;
+    -webkit-transition: opacity .15s ease;
+    -moz-transition: opacity .15s ease;
+    -ms-transition: opacity .15s ease;
+    -o-transition: opacity .15s ease;
+    transition:  opacity .15s ease-out;
+    background-color:whitesmoke;
 }
 
 .projects:hover:before {
-    opacity: 0.75;
+    opacity: 0.50;
 }
 
-.projects:hover {
-    background-color: whitesmoke;
+.about {
+    position: relative;
 }
 
-/* .about {
-    
-} */
-
-.about:hover {
-    background-color: violet;
+.about::before {
+    content: "";
+    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0; 
+    -webkit-transition: opacity .15s ease;
+    -moz-transition: opacity .15s ease;
+    -ms-transition: opacity .15s ease;
+    -o-transition: opacity .15s ease;
+    transition:  opacity .15s ease-out;
+    background-color:violet;
 }
 
-/* .cv {
-    
-} */
+.about:hover:before {
+    opacity: 0.50;
+}
 
-.cv:hover {
+.cv {
+    position: relative;
+}
+
+.cv::before {
+    content: "";
+    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0; 
+    -webkit-transition: opacity .15s ease;
+    -moz-transition: opacity .15s ease;
+    -ms-transition: opacity .15s ease;
+    -o-transition: opacity .15s ease;
+    transition:  opacity .15s ease-out;
     background-color: tomato;
-    
 }
 
-/* .contact{
-    
-}     */
+.cv:hover:before {
+    opacity: .50;
+}
 
-.contact:hover {
+.contact {
+    position: relative;
+}
+
+.contact::before {
+    content: "";
+    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0; 
+    -webkit-transition: opacity .15s ease;
+    -moz-transition: opacity .15s ease;
+    -ms-transition: opacity .15s ease;
+    -o-transition: opacity .15s ease;
+    transition:  opacity .15s ease-out;
     background-color: turquoise;
-
 }
+
+.contact:hover:before {
+    opacity: .50;
+}
+
 
 h1 {
     font-family: 'Roboto Mono', monospace;
+}
+
+.back {
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 20px;
+}
+
+.back:hover {
+    color: silver;
 }
