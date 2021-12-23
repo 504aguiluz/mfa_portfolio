@@ -1,7 +1,11 @@
-/* fonts */
-/* font-family: 'Major Mono Display', monospace;
-font-family: 'Noto Sans JP', sans-serif;
-font-family: 'Roboto Mono', monospace; */
+.transition-fade {
+    opacity: 1;
+    transition: 500ms;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+}
 
 .main-containter {
     display: flex;
@@ -21,7 +25,6 @@ body {
 }
 
 .index-body {
-    background-color: whitesmoke;
     height: 534px;
     width: 624px;
 }
@@ -65,7 +68,7 @@ body {
     -ms-transition: opacity .15s ease;
     -o-transition: opacity .15s ease;
     transition:  opacity .15s ease-out;
-    background-color:yellowgreen;
+    background-color:lightgreen;
 }
 
 .projects:hover:before {

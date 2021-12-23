@@ -1,5 +1,5 @@
-console.log('===========mfa porfolio==========')
-
+console.log('app.js connected')
+const swup = new Swup();
 
 // contact info: copy text on click
 // home link appears after a card is clicked and navigated into

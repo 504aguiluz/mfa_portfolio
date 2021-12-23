@@ -9,26 +9,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Noto+Sans+JP&family=Roboto+Mono:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link href="css/contact.css" rel="stylesheet">
-    <title>mfa - contact</title>
     <script defer src="node_modules/swup/dist/swup.min.js"></script>
     <script defer type="text/javascript" src="js/app.js"></script>
+    <link href="css/contact.css" rel="stylesheet">
+    <title>mfa - contact</title>
 </head>
 <body>
-    <main id="swup" class="transistion-melt">
+    <main id="swup" class="transition-fade">
+        <h1>contact</h1>
+        <small class="back" onclick="location.href='/mfa_portfolio/index.html'"><<<|home|>>></small>
         <div class="contact-body">
             <div class="main-containter">
-                <div class="card-cont">
-                    <div class="card projects" onclick="location.href='projects.html'">projects</div>
-                    <div class="card about" onclick="location.href='about.html'"><span>about</span></div>
-                    <div class="card cv" onclick="location.href='cv.html'">cv</div>
-                    <div class="card contact" onclick="location.href='contact.html'">contact</div>
+                <div>
+                    <h1><<<<|contact info|>>>></h1>
+                    <ul>
+                        <li>full name</li>
+                        <li>cell phone</li>
+                        <li>email</li>
+                        <li>social media</li>
+                    </ul>
                 </div>
-                <h1><b>matt aguiluz</b></h1>
-                <small>fullstack developer</small>
-                <small class="back" onclick="location.href='index.html'">home</small>
+                <div class="card-cont">
+                    <div class="card projects" onclick="location.href='/mfa_portfolio/projects.html'">projects</div>
+                    <div class="card about" onclick="location.href='/mfa_portfolio/about.html'"><span>about</span></div>
+                    <div class="card cv" onclick="location.href='/mfa_portfolio/cv.html'">cv</div>
+                </div>
             </div>
         </div>
+        <h1><b>matt aguiluz</b></h1>
+        <small>fullstack developer</small>
     </main>
 </body>
 </html>
