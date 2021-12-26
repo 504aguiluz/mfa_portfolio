@@ -24,6 +24,14 @@ body {
     border-radius: 5px; 
 }
 
+a{
+    opacity: 1;
+}
+
+a:hover {
+    opacity: .5;
+}
+
 h1 {
     padding: 20px;
     font-size: larger;
@@ -73,6 +81,8 @@ img:hover {
     height: 534px;
     width: 624px;
     overflow: auto;
+    border-bottom: 3px solid black;
+    border-radius: 5px; 
 }
 
 .card-cont {
@@ -96,18 +106,12 @@ img:hover {
     max-width: 50vw;
 }
 
-ul {
-    /* text-align: start; */
-}
-
-
 .about {
     position: relative;
 }
 
 .about::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -133,7 +137,6 @@ ul {
 
 .cv::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -159,7 +162,6 @@ ul {
 
 .contact::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -181,6 +183,10 @@ ul {
 
 
 h1 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
     font-family: 'Roboto Mono', monospace;
 }
 
