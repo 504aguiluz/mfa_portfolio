@@ -58,31 +58,6 @@ ul {
     /* text-align: start; */
 }
 
-.projects {
-    position: relative;
-}
-
-.projects::before {
-    content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0; 
-    -webkit-transition: opacity .15s ease;
-    -moz-transition: opacity .15s ease;
-    -ms-transition: opacity .15s ease;
-    -o-transition: opacity .15s ease;
-    transition:  opacity .15s ease-out;
-    background-color:whitesmoke;
-}
-
-.projects:hover:before {
-    opacity: 0.50;
-}
 
 .about {
     position: relative;
