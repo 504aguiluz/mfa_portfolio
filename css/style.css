@@ -39,7 +39,6 @@ body {
 
 .projects::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;

@@ -1,13 +1,5 @@
-.transition-fade {
-    opacity: 1;
-    transition: 500ms;
-}
-
-html.is-animating .transition-fade {
-    opacity: 0;
-}
-.main {
-    overflow: scroll;
+* {
+    font-family: 'Roboto Mono', monospace;
 }
 
 .main-containter {
@@ -17,18 +9,43 @@ html.is-animating .transition-fade {
 
 body {
     position: fixed;
-    top: 5%;
+    top: 2%;
     max-height: 90vh;
     max-width: 90vw;
     border: 3px solid black;
     border-radius: 5px; 
 }
 
+h1 {
+    padding: 20px;
+    font-size: larger;
+    font-weight: 600;
+    background-color: violet;
+}
+
+h1.footer {
+    background-color: white;
+}
+
+
+hr.solid {
+    border-top: 3px solid black;
+}
+
+hr.thin {
+    border-top: 1px solid black;
+}
+
+
+
 .about-body {
     background-color: rgba(238, 130, 238, 0.625);
     height: 534px;
     width: 624px;
     overflow: auto;
+    border-bottom: 3px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .card-cont {
@@ -50,12 +67,6 @@ body {
     border-radius: 3px;
     max-height: 50vh;
     max-width: 50vw;
-
-    /* margin: 0px 280px 0px 280px; */
-}
-
-ul {
-    /* text-align: start; */
 }
 
 .projects {
@@ -64,7 +75,6 @@ ul {
 
 .projects::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -94,7 +104,6 @@ ul {
 
 .about::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -120,7 +129,6 @@ ul {
 
 .cv::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -146,7 +154,6 @@ ul {
 
 .contact::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -164,15 +171,6 @@ ul {
 
 .contact:hover:before {
     opacity: .50;
-}
-
-
-h1 {
-    font-family: 'Roboto Mono', monospace;
-}
-
-.home {
-    font-family: 'Roboto Mono', monospace;
 }
 
 .home:hover {
