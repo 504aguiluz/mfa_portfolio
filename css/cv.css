@@ -17,7 +17,7 @@ html.is-animating .transition-fade {
 
 body {
     position: fixed;
-    top: 10%;
+    top: 5%;
     max-height: 90vh;
     max-width: 90vw;
     border: 3px solid black;

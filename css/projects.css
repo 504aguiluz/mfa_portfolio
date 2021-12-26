@@ -17,11 +17,55 @@ html.is-animating .transition-fade {
 
 body {
     position: fixed;
-    top: 10%;
+    top: 2%;
     max-height: 90vh;
     max-width: 90vw;
     border: 3px solid black;
     border-radius: 5px; 
+}
+
+h1 {
+    padding: 20px;
+    font-size: larger;
+    font-weight: 600;
+    background-color: rgba(144, 238, 144);
+}
+
+h1.footer {
+    background-color: white;
+}
+
+hr.solid {
+    border-top: 3px solid black;
+}
+
+hr.thin {
+    border-top: 1px solid black;
+}
+
+img {
+    width: 480px;
+    margin: 20px auto 20px auto;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+ul {
+    font-family: 'Roboto Mono', monospace;
+    padding: 20px;
+}
+
+img {
+    border: 5px solid rgb(0, 0, 0);
+}
+
+img:hover {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    transition: all 250ms ease-out;
 }
 
 .projects-body {
@@ -50,8 +94,6 @@ body {
     border-radius: 3px;
     max-height: 50vh;
     max-width: 50vw;
-
-    /* margin: 0px 280px 0px 280px; */
 }
 
 ul {
@@ -144,6 +186,7 @@ h1 {
 
 .home {
     font-family: 'Roboto Mono', monospace;
+    
 }
 
 .home:hover {
