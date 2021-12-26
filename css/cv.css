@@ -1,6 +1,7 @@
 * {
     font-family: 'Roboto Mono', monospace;
 }
+
 .main-containter {
     display: flex;
     flex-direction: column;
@@ -71,7 +72,6 @@ hr.thin {
 
 .projects::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -141,10 +141,6 @@ hr.thin {
     opacity: .50;
 }
 
-
-h1 {
-}
-
 .title {
     padding: 10px;
     font-weight: 600;
@@ -156,7 +152,6 @@ ul {
     padding: 10px;
     font-weight: 500;
     font-size: 16px;
-    /* border: 1px solid black; */
 }
 
 li {

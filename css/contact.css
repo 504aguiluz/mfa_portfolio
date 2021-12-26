@@ -1,14 +1,7 @@
-.transition-fade {
-    opacity: 1;
-    transition: 500ms;
+* {
+    font-family: 'Roboto Mono', monospace;
 }
 
-html.is-animating .transition-fade {
-    opacity: 0;
-}
-.main {
-    overflow: scroll;
-}
 
 .main-containter {
     display: flex;
@@ -17,15 +10,35 @@ html.is-animating .transition-fade {
 
 body {
     position: fixed;
-    top: 5%;
+    top: 2%;
     max-height: 90vh;
     max-width: 90vw;
     border: 3px solid black;
     border-radius: 5px; 
 }
 
+h1 {
+    padding: 20px;
+    font-size: larger;
+    font-weight: 600;
+    background-color: turquoise;
+}
+
+h1.footer {
+    background-color: white;
+}
+
+
+hr.solid {
+    border-top: 3px solid black;
+}
+
+hr.thin {
+    border-top: 1px solid black;
+}
+
 .contact-body {
-    background-color: rgba(64, 224, 208, 0.625);
+    background-color: rgba(64, 224, 208, 0.5);
     height: 534px;
     width: 624px;
     overflow: auto;
@@ -50,12 +63,6 @@ body {
     border-radius: 3px;
     max-height: 50vh;
     max-width: 50vw;
-
-    /* margin: 0px 280px 0px 280px; */
-}
-
-ul {
-    /* text-align: start; */
 }
 
 .projects {
@@ -64,7 +71,6 @@ ul {
 
 .projects::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -94,7 +100,6 @@ ul {
 
 .about::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -120,7 +125,6 @@ ul {
 
 .cv::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -146,7 +150,6 @@ ul {
 
 .contact::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -166,15 +169,25 @@ ul {
     opacity: .50;
 }
 
-
-h1 {
-    font-family: 'Roboto Mono', monospace;
+li {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
-.home {
-    font-family: 'Roboto Mono', monospace;
+li:hover {
+    background-color: rgb(64, 224, 208, 0.25);
 }
 
 .home:hover {
     color: silver;
+}
+
+a{
+    opacity: 1;
+}
+
+a:hover {
+    opacity: .5;
 }
