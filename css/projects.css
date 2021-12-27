@@ -1,13 +1,5 @@
-.transition-fade {
-    opacity: 1;
-    transition: 500ms;
-}
-
-html.is-animating .transition-fade {
-    opacity: 0;
-}
-.main {
-    overflow: scroll;
+* {
+    font-family: 'Roboto Mono', monospace;
 }
 
 .main-containter {
@@ -24,7 +16,7 @@ body {
     border-radius: 5px; 
 }
 
-a{
+a {
     opacity: 1;
 }
 
@@ -59,7 +51,6 @@ img {
 }
 
 ul {
-    font-family: 'Roboto Mono', monospace;
     padding: 20px;
 }
 
@@ -81,9 +72,6 @@ img:hover {
     height: 534px;
     width: 624px;
     overflow: auto;
-    border-bottom: 3px solid black;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 
 .card-cont {
@@ -180,20 +168,6 @@ img:hover {
 
 .contact:hover:before {
     opacity: .50;
-}
-
-
-h1 {
-    font-family: 'Roboto Mono', monospace;
-}
-
-h2 {
-    font-family: 'Roboto Mono', monospace;
-}
-
-.home {
-    font-family: 'Roboto Mono', monospace;
-    
 }
 
 .home:hover {
