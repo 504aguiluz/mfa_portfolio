@@ -21,6 +21,7 @@ body {
 
 .title {
     margin: 20px 0px 20px 0px;
+    text-align: center;
 }
 
 h1 {
@@ -105,7 +106,7 @@ a:hover {
 .about-body {
     background-color: rgba(238, 130, 238, 0.625);
     max-height: 70vh;
-    max-width: 90vw;
+    width: 80vw;
     overflow: auto;
 }
 
