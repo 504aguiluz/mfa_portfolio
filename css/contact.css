@@ -18,16 +18,28 @@ body {
 }
 
 h1 {
-    padding: 20px;
     font-size: larger;
     font-weight: 600;
     background-color: turquoise;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+small {
+    padding-left: 20px;
 }
 
 h1.footer {
     background-color: white;
 }
 
+.heading {
+    text-align: center;
+}
 
 hr.solid {
     border-top: 3px solid black;
@@ -39,12 +51,9 @@ hr.thin {
 
 .contact-body {
     background-color: rgba(64, 224, 208, 0.5);
-    height: 534px;
+    height: 518px;
     width: 624px;
     overflow: auto;
-    border-bottom: 3px solid black;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 
 .card-cont {
