@@ -22,7 +22,6 @@ body {
 }
 
 h1 {
-    padding: 20px;
     font-size: larger;
     font-weight: 600;
     background-color: violet;
@@ -33,7 +32,6 @@ h1.footer {
 }
 
 h2 {
-    margin: 10px;
     text-decoration: underline;
     font-weight: 600;
 }
@@ -94,7 +92,7 @@ a:hover {
 
 .about-body {
     background-color: rgba(238, 130, 238, 0.625);
-    height: 534px;
+    height: 518px;
     width: 624px;
     overflow: auto;
     border-bottom: 3px solid black;
@@ -148,33 +146,8 @@ a:hover {
     opacity: 0.50;
 }
 
-.projects-show {
-    border: solid 1px red;
-}
-
 .about {
     position: relative;
-}
-
-.about::before {
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0; 
-    -webkit-transition: opacity .15s ease;
-    -moz-transition: opacity .15s ease;
-    -ms-transition: opacity .15s ease;
-    -o-transition: opacity .15s ease;
-    transition:  opacity .15s ease-out;
-    background-color:violet;
-}
-
-.about:hover:before {
-    opacity: 0.50;
 }
 
 .cv {
