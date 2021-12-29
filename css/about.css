@@ -48,7 +48,6 @@ small {
     text-align: center;
 }
 
-
 hr.solid {
     border-top: 3px solid black;
 }
@@ -66,6 +65,7 @@ img {
 
 p {
     margin: 10px 20px 10px 20px;
+    text-align: center;
 }
 
 ul {
@@ -93,7 +93,7 @@ a:hover {
     background-color: rgb(255, 0, 0, 0.5);
 }
 
-.truth:active {
+/* .truth:active {
     border-radius: 3px;
     background-color: rgb(0, 128, 0, 0.5);
 }
@@ -102,7 +102,7 @@ a:hover {
     border-radius: 3px;
     background-color: rgb(255, 0, 0, 0.5);
 }
-
+ */
 .about-body {
     background-color: rgba(238, 130, 238, 0.625);
     max-height: 70vh;
