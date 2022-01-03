@@ -28,6 +28,15 @@ h1 {
     padding: 20px;
 }
 
+.download {
+    height: 48px;
+    margin: auto;
+}
+
+.download:hover {
+    opacity: 0.5;
+}
+
 .heading {
     text-align: center;
 }
