@@ -58,9 +58,9 @@ hr.thin {
 
 .pic-div {
     display: flex;
-    /* margin: auto; */
+    margin: auto;
     padding: 10px;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 
 img {
@@ -68,7 +68,7 @@ img {
     margin: auto;
     border-radius: 5px;
     border: 3px solid black;
-    max-width: 500px;
+    max-width: 400px;
     min-width: 300px;
 }
 
@@ -85,7 +85,21 @@ ul {
 }
 
 li {
-    margin: 10px 20px 10px 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+.li-cont {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+.li-thumbs {
+    margin: 20px;
+    max-width: 200px;
 }
 
 a:hover {
@@ -121,11 +135,10 @@ a:hover {
 
 .card-cont {
     display: grid;
-    grid-template-columns: .7fr;
-    column-gap: 15px;
-    row-gap: 15px;
-    margin: 20px;
-    height: 30vh;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+    margin: auto;
+    padding: 20px;
     width: 30vw;
 }
 

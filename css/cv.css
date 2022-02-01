@@ -72,11 +72,10 @@ hr.thin {
 
 .card-cont {
     display: grid;
-    grid-template-columns: .7fr;
-    column-gap: 15px;
-    row-gap: 15px;
-    margin: 20px;
-    height: 30vh;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+    margin: auto;
+    padding: 20px;
     width: 30vw;
 }
 
