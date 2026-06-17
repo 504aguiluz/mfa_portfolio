@@ -19,19 +19,10 @@ body {
     border-radius: 5px; 
 }
 
-.title {
-    margin: 20px 0px 20px 0px;
-    text-align: center;
-}
-
 h1 {
     font-size: larger;
     font-weight: 600;
-    background-color: violet;
-}
-
-h1.footer {
-    background-color: white;
+    background-color:rgb(219, 201, 251);
 }
 
 h2 {
@@ -52,36 +43,32 @@ hr.solid {
     border-top: 3px solid black;
 }
 
-hr.thin {
-    border-top: 1px solid black;
-}
-
-.pic-div {
-    display: flex;
-    margin: auto;
-    padding: 10px;
-    flex-wrap: wrap;
+.pic-row {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+    gap: 20px !important;
+    margin: 10px !important;
 }
 
 img {
-    width: 50%;
-    margin: auto;
+    flex-shrink: 0;
     border-radius: 5px;
     border: 3px solid black;
-    max-width: 300px;
-    min-width: 300px;
+    width: 300px;
+    height: auto;
 }
 
-p {
-    margin: 10px 20px 10px 20px;
-    text-align: center;
+img.thumb {
+    align-self: flex-start !important;
+    margin: 0 !important;
+    width: 300px !important;
 }
 
-ul {
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 10px;
-    background-color:rgb(255, 227, 255);
+.pic-text {
+    flex: 1 !important;
+    text-align: left !important;
 }
 
 li {
@@ -89,58 +76,45 @@ li {
     padding: 10px;
 }
 
-.li-cont {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: auto;
-    
-}
-
 .li-thumbs {
     margin: 20px;
     max-width: 150px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
 }
 
 a:hover {
     color: rgb(0, 174, 174);
 }
 
-.truth-hover:hover {
-    border-radius: 3px;
-    background-color: rgb(0, 128, 0, 0.5);
-}
-
-.lie-hover:hover {
-    border-radius: 3px;
-    background-color: rgb(255, 0, 0, 0.5);
-}
-
-/* .truth:active {
-    border-radius: 3px;
-    background-color: rgb(0, 128, 0, 0.5);
-}
-
-.lie:active {
-    border-radius: 3px;
-    background-color: rgb(255, 0, 0, 0.5);
-}
- */
 .about-body {
-    background-color: rgba(238, 130, 238, 0.625);
+    background-color: rgba(255, 255, 255, 0.625);
     max-height: 70vh;
     width: 80vw;
     overflow: auto;
 }
 
 .card-cont {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
     margin: auto;
     padding: 20px;
-    width: 30vw;
 }
 
 .card {
@@ -156,6 +130,7 @@ a:hover {
 
 .projects {
     position: relative;
+    min-width: 20vw;
 }
 
 .projects::before {
@@ -179,12 +154,9 @@ a:hover {
     opacity: 0.50;
 }
 
-.about {
-    position: relative;
-}
-
 .cv {
     position: relative;
+    min-width: 20vw;
 }
 
 .cv::before {
@@ -210,6 +182,7 @@ a:hover {
 
 .contact {
     position: relative;
+    min-width: 20vw;
 }
 
 .contact::before {
