@@ -64,7 +64,6 @@ body {
 
 .about::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -77,7 +76,7 @@ body {
     -ms-transition: opacity .15s ease;
     -o-transition: opacity .15s ease;
     transition:  opacity .15s ease-out;
-    background-color:violet;
+    background-color:rgb(211, 163, 255);
 }
 
 .about:hover:before {
@@ -90,7 +89,6 @@ body {
 
 .cv::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -116,7 +114,6 @@ body {
 
 .contact::before {
     content: "";
-    /* background-image: url('../assets/neon-pyramid-thumb-sqr.png'); */
     background-size: cover;
     position: absolute;
     top: 0px;
