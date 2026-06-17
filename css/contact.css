@@ -35,10 +35,6 @@ small {
     padding-left: 20px;
 }
 
-h1.footer {
-    background-color: white;
-}
-
 .heading {
     text-align: center;
 }
@@ -47,12 +43,7 @@ hr.solid {
     border-top: 3px solid black;
 }
 
-hr.thin {
-    border-top: 1px solid black;
-}
-
 .contact-body {
-    background-color: rgba(64, 224, 208, 0.5);
     max-height: 90vh;
     max-width: 90vw;
     overflow: auto;
@@ -103,10 +94,6 @@ hr.thin {
     opacity: 0.50;
 }
 
-.projects-show {
-    border: solid 1px red;
-}
-
 .about {
     position: relative;
 }
@@ -125,7 +112,7 @@ hr.thin {
     -ms-transition: opacity .15s ease;
     -o-transition: opacity .15s ease;
     transition:  opacity .15s ease-out;
-    background-color:violet;
+    background-color:rgb(190, 168, 255);
 }
 
 .about:hover:before {
@@ -157,31 +144,6 @@ hr.thin {
     opacity: .50;
 }
 
-.contact {
-    position: relative;
-}
-
-.contact::before {
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0; 
-    -webkit-transition: opacity .15s ease;
-    -moz-transition: opacity .15s ease;
-    -ms-transition: opacity .15s ease;
-    -o-transition: opacity .15s ease;
-    transition:  opacity .15s ease-out;
-    background-color: turquoise;
-}
-
-.contact:hover:before {
-    opacity: .50;
-}
-
 li {
     padding: 10px;
     font-weight: 600;
@@ -193,16 +155,16 @@ li:hover {
     background-color: rgb(64, 224, 208, 0.25);
 }
 
-.icons-div {
-
-}
-
 #instagram {
     max-width: 130px;
     margin: auto;
     padding-right: 10px;
 }
 
+#github {
+    max-width: 60px;
+    margin: auto;
+}
 #linked-in {
     max-width: 60px;
     /* margin-left: 33px; */
