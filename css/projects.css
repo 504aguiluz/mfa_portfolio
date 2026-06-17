@@ -29,7 +29,7 @@ a:hover {
 h1 {
     font-size: larger;
     font-weight: 600;
-    background-color: rgba(144, 238, 144);
+    background-color: rgb(188, 245, 188);
 }
 
 .title {
@@ -49,10 +49,6 @@ small {
     padding-left: 20px;
 }
 
-h1.footer {
-    background-color: white;
-}
-
 hr.solid {
     border-top: 3px solid black;
 }
@@ -65,18 +61,16 @@ img {
     max-width: 50vw;
     margin: 30px auto 30px auto;
     border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
 }
 
 li {
     padding: 20px;
 }
 
-img {
-    border: 5px solid rgb(0, 0, 0);
-}
-
 img:hover {
     -webkit-filter: brightness(70%);
+    filter: brightness(70%);
     -webkit-transition: all 250ms ease;
     -moz-transition: all 250ms ease;
     -o-transition: all 250ms ease;
@@ -85,19 +79,18 @@ img:hover {
 }
 
 .projects-body {
-    background-color:rgba(144, 238, 144, 0.625);
     max-height: 70vh;
     width: 80vw;
     overflow: auto;
 }
 
 .card-cont {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
     margin: auto;
     padding: 20px;
-    width: 30vw;
 }
 
 .card {
@@ -113,6 +106,7 @@ img:hover {
 
 .about {
     position: relative;
+    min-width: 20vw;
 }
 
 .about::before {
@@ -129,7 +123,7 @@ img:hover {
     -ms-transition: opacity .15s ease;
     -o-transition: opacity .15s ease;
     transition:  opacity .15s ease-out;
-    background-color:violet;
+    background-color:rgb(212, 160, 255);
 }
 
 .about:hover:before {
@@ -138,6 +132,7 @@ img:hover {
 
 .cv {
     position: relative;
+    min-width: 20vw;
 }
 
 .cv::before {
@@ -163,6 +158,7 @@ img:hover {
 
 .contact {
     position: relative;
+    min-width: 20vw;
 }
 
 .contact::before {
